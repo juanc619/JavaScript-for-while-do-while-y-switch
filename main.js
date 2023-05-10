@@ -29,13 +29,43 @@
 
 
 
-// do..while
+// // do..while
 
-let z = 0;
-do {
-    console.log ("Ciclo do..while numero " + z);
-    z++;
-} while (z < 5);
+// let z = 0;
+// do {
+//     console.log ("Ciclo do..while numero " + z);
+//     z++;
+// } while (z < 5);
 
 
 // switch
+
+let diaDeLaSemana = 8;
+
+switch (diaDeLaSemana) {
+    case 1:
+        console.log ("Lunes");
+        break;
+    case 2:
+        console.log ("Martes");
+        break;
+    case 3:
+        console.log("Miercoles");
+        break;
+    case 4:
+        console.log("Jueves");
+        break;
+    case 5:
+        console.log("Viernes");
+        break;
+    case 6:
+        console.log("Sabado");
+        break;
+    case 7:
+        console.log("Domingo");
+        break;
+    default:
+        console.log ("Ese dia no existe");
+        break;
+
+}
