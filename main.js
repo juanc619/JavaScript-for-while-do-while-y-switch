@@ -1,19 +1,30 @@
 // for
 
+// for (let x = 0 ; x < 10; x ++) {
+//     console.log ("Ciclo numero " + x);
+// }
+
 
 // for anidado
 
-
-
-
-
-// while
-let x = 0;
-while (x < 10) {
-    alert ("Ahora x vale " + x);
+for (let x = 0 ; x < 10; x ++) {
     console.log ("Ciclo numero " + x);
-    x = x + 1;
+
+    for (let y =0; y < 5 ; y++) {
+        console.log (" Ciclo secundario " + y);
+    }
 }
+
+
+
+
+// // while
+// let x = 0;
+// while (x < 10) {
+//     alert ("Ahora x vale " + x);
+//     console.log ("Ciclo numero " + x);
+//     x = x + 1;
+// }
 
 
 
